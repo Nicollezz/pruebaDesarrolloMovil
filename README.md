@@ -1,4 +1,5 @@
 Vista de móvil
+
 <img width="718" height="1599" alt="MóvilView" src="https://github.com/user-attachments/assets/2d05ae01-fceb-454f-a288-9ab392f0d4fe" />
 
 
