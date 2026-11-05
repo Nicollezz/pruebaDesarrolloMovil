@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
     padding: 20,
     justifyContent: "center",
     alignItems: "center",
+    paddingTop: 60,
   },
   alerta: {
     color: "red",
