@@ -7,21 +7,19 @@ export default function Cabecera() {
   return (
     <View style={styles.container}>
       <Text style={styles.texto}> {mascota.nombre}</Text>
-      <br></br>
+
       <Image
         source={require("../../assets/images/pixelCat.jpg")}
         style={styles.imagen}
       />
-      <br></br>
+
       <TextInput
         style={styles.input}
         value={mascota.nombre}
         onChangeText={setNombre}
         placeholder="Ingresa el nombre"
       />
-      <br></br>
 
-      <br></br>
       <Text style={styles.texto}>Estado de Ánimo: {mascota.estadoAnimo}</Text>
     </View>
   );
