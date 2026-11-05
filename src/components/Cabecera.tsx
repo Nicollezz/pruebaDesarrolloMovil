@@ -6,6 +6,8 @@ export default function Cabecera() {
 
   return (
     <View style={styles.container}>
+      <Text style={styles.texto}> {mascota.nombre}</Text>
+      <br></br>
       <Image
         source={require("../../assets/images/pixelCat.jpg")}
         style={styles.imagen}
@@ -18,7 +20,7 @@ export default function Cabecera() {
         placeholder="Ingresa el nombre"
       />
       <br></br>
-      <Text style={styles.texto}>Nombre: {mascota.nombre}</Text>
+
       <br></br>
       <Text style={styles.texto}>Estado de Ánimo: {mascota.estadoAnimo}</Text>
     </View>
@@ -28,27 +30,29 @@ export default function Cabecera() {
 const styles = StyleSheet.create({
   container: {
     alignItems: "center",
-    marginBottom: 15,
+    marginBottom: 20,
   },
   imagen: {
     width: 120,
     height: 120,
-    borderRadius: 80,
+    borderRadius: 60,
     marginBottom: 10,
   },
   input: {
     borderWidth: 1,
-    borderColor: "#2D4030",
+    borderColor: "#1394b1",
+    borderRadius: 8,
     padding: 8,
-    width: 300,
+    width: 200,
     textAlign: "center",
     fontSize: 18,
     fontWeight: "bold",
-    marginBottom: 5,
+    marginBottom: 10,
+    backgroundColor: "#FFFFFF",
   },
   texto: {
-    fontSize: 16,
-    color: "#2D4030",
+    fontSize: 20,
+    color: "#1394b1",
     fontWeight: "bold",
   },
 });
